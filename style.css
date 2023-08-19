@@ -1,0 +1,248 @@
+*{
+    margin: 0
+    ;
+    padding: 0;
+    box-sizing: border-box;
+}
+section
+{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    
+    display: flex;
+    flex-direction: column;
+    /* height: ; */
+    gap: 300px;
+    justify-content: center;
+    padding: 150px;
+    align-items: center;
+}
+.container
+{
+    /* height: 100vh;
+    width: 100vw; */
+    /* min-height: 900px; */
+    /* background-color: #FFDEE9;xdeg, #FFDEE9 0%, #B5FFFC 100%); */
+display: flex;
+flex-direction: column;
+/* gap: 400px; */
+justify-content: center;
+align-items: center;
+
+}
+
+.card
+{
+    background-color: white;
+    width: 370px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 10px; */
+    padding: 20px;
+    gap: 30px
+    ;
+    /* justify-content: center; */
+    align-items: center;
+border-radius: 20px;
+}
+.container2
+{
+    /* height: 100vh;
+    width: 100vw; */
+    /* min-height: 900px; */
+    /* background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%); */
+display: flex;
+flex-direction: column;
+/* gap: 400px; */
+justify-content: center;
+align-items: center;
+
+}
+
+#card2
+{
+    /* background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-color: white;
+    width: 370px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 10px; */
+    padding: 0px;
+    gap: 20px
+    ;
+    /* justify-content: center; */
+    align-items: center;
+border-radius: 20px;
+
+}
+.card .plan img
+{
+    filter: blur(0px);
+    height: 50px;
+    
+}
+.plan img{
+    height: 50px;
+    width: 50px;
+    filter: blur(0);
+}
+.card img
+{
+
+    height: 57%;
+    /* width: 300px; */
+    border-radius: 10px;
+    filter: blur(5px);
+    transition: all 0.5s;
+}
+#card2 p{
+    text-align: center;
+    /* text-justify: ; */
+}
+button
+{
+    background-color: navy;
+    color: white;
+    /* font-weight: bolder; */
+    /* font-size: 1em; */
+    /* border: 2px solid black; */
+    width: 90%;
+    padding: 15px;
+    height: 51.2px;
+    font-size: 0.8em;
+    box-shadow: 0px 2px 100px black;
+    border-radius: 20px;
+}
+.plan
+{
+    width: 90%;
+    /* margin: 0 30px; */
+    border: 1px solid black;
+    padding: 0 10px;
+    border-radius: 10px;
+    /* background-color: #B5FFFC; */
+    background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+color: white;
+font-weight: bolder;
+/* text-decoration: none; */
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+/* #icon
+{
+    display: inline;
+} */
+#icon{
+    width: 370px;
+    height: 38%;
+    /* width: 100%; */
+    border-radius: 0px;
+    /* border-rtop: 20px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* filter: none; */
+    transition: all 0.5s;
+}
+.card img:hover{
+    /* transition: ; */
+    transform: scale(1.1);
+
+    filter: drop-shadow(2px 4px 6px black);
+
+cursor: pointer;
+}
+.card h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card p{
+    font-size: 1.2em;
+}
+
+/* .container2 #card2 .plan a */
+a#cor {
+    text-decoration: none;
+    color: black;
+}
+
+
+.container3
+{
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card3
+{
+    display: flex;
+    height: 570px;
+    width: 1182px;
+    /* font-size: 
+    ; */
+    font-weight: bold;
+    /* border-radius: 20px; */
+    background-color: #5d1466;
+
+    /* border: 2px solid black; */
+}
+
+.card3 img{
+    height: 570px;
+    width: 590px;
+}
+
+.leftb
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 80px;
+    padding: 20px;
+}
+.info
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 160px;
+    align-items: center;
+}
+span
+{
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.info p{
+    /* color: rgba(51, 51, 59, 0.178);
+    
+    */
+    color: grey;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: small;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.container3 .card3 .leftb p{
+    font-size: 18px;
+}
